@@ -1,48 +1,3 @@
-Another to link to your portfolio page
-
-<li class="nav-li">
-  <a href="portfolio.html">Portfolio</a>
-</li>
-After completing this TODO, your <nav> section should look like this:
-
-<nav>
-  <h1>Your Name's Amazing Website</h1>
-  <ul id="nav-ul">
-    <li class="nav-li">
-      <a href="index.html">Home</a>
-    </li>
-    <li class="nav-li">
-      <a href="portfolio.html">Portfolio</a>
-    </li>
-  </ul>
-</nav>
-💡 Why Add a Navigation Menu?
-A navigation menu makes it easy for visitors to move between different parts of your site. It’s also a great way to learn how to link pages together using anchor tags (<a>).
-
-✅ Check Your Work!
-Make sure the <h1> and <ul> elements are inside the <nav> element.
-Preview your site using Live Server to ensure your title and menu appear on the site.
-
-
-
-
-TODO 8: Make It Pretty with CSS
-🎯 Goal: Add a CSS stylesheet to style your website.
-
-Step-by-Step Instructions
-🔍 Find the <head> element inside index.html
-
-Add a <link> tag inside the <head> element
-
-Note that the link tag does not require a closing tag
-Add a rel="stylesheet" attribute and href="style.css" attribute inside the <link> tag
-
-Your code should now look like this:
-<head>
-  <title>Your Name's Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-Open the style.css file and add the following CSS rules:
 
 body {
     background: rgb(66, 135, 245);
@@ -67,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: ;
+    color: yellow;
     flex: 1;
     margin: 0;
 }

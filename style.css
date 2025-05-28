@@ -45,8 +45,8 @@ Your code should now look like this:
 Open the style.css file and add the following CSS rules:
 
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(66, 135, 245);
+    color: rgb(23, 235, 30);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -67,7 +67,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: ;
     flex: 1;
     margin: 0;
 }
@@ -86,12 +86,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(207, 156, 17);
     display: flex;
     margin-top: 20px;
 }
